@@ -119,8 +119,8 @@ namespace Products.Models
 }
 ```
 
-Now we can view our 'Create' page on our browswr localhost server ./Product/Create\
-<p aling="center"><img src="img/screenshot.png"><p>
+Now we can view our 'Create' page on our browswr localhost server ./Product/Create
+<p aling="center"><img src="pic/create.png"><p>
     
 We'll add option to add new product in our 'index.cshtml'
 ```
