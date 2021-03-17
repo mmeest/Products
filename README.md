@@ -4,7 +4,7 @@
     <strong>PRODUCTS</strong>
 </h1>
 <h3 align="center">
-    <p>Producst CRUD Web App with ASP.NET</p>
+    <p>Products CRUD Web App with ASP.NET</p>
 </h3>
 
 ## Contents
