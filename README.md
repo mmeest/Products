@@ -18,7 +18,7 @@
 
 <hr>
 
-## Tools needed
+### Tools needed
 * Visual Studio           - https://visualstudio.microsoft.com/
 * Microsoft SQL Server    - https://www.microsoft.com/en-us/sql-server/sql-server-downloads
 
