@@ -7,7 +7,7 @@
     <p>Products CRUD Web App with ASP.NET</p>
 </h3>
 
-## Contents
+### Contents
 - [Tools needed](#tools-needed)
 - [Database](#database)
 - [Creating project](#creating-project)
@@ -24,7 +24,7 @@
 
 <hr>
 
-## Database
+### Database
 On Microsoft SQL Server Management Studio create new database\
 Databbase Name: **MvcCrudDB**\
 Table Name: **Products**\
@@ -37,7 +37,9 @@ Columns:
 
 Set 'ProductID' as Primary Key and on Column Properties 'Identity Specification -> Yes' for auto fill.
 
-## Creating project
+<hr>
+
+### Creating project
 1. On Visual Studio create new 'ASP.NET Web Application' project with 'MVC'
 2. Add controller 'MVC 5 Controller with read/write actions' to 'Controllers' and name it 'ProductController'
 3. On 'Products/App_Starti/RouteConfig.cs' change default route to
@@ -47,7 +49,7 @@ defaults: new { controller = "Product", action = "Index", id = UrlParameter.Opti
 
 <hr>
 
-## CRUD Read
+### CRUD Read
 On 'ProductsController' we will display products in our database.\
 We will add
 ```
@@ -105,7 +107,7 @@ This will create 'index.cshtml' in our 'Product' folder where we write our main 
 
 <hr>
 
-## CRUD Create
+### CRUD Create
 In 'Models' folder we will add 'ProductModel.cs' class
 ```
 using System;
@@ -158,7 +160,7 @@ public ActionResult Create(ProductModel productModel)
 
 <hr>
 
-## CRUD Update
+### CRUD Update
 We'll create edit method on 'ProductsController.cs'
 ```
 // GET: Product/Edit/5
@@ -217,7 +219,7 @@ public ActionResult Edit(ProductModel productModel)
 
 <hr>
 
-## CRUD Delete
+### CRUD Delete
 For delete operation we use Delete GET mehtod in 'ProductController.cs'
 ```
 // GET: Product/Delete/5
@@ -235,3 +237,5 @@ public ActionResult Delete(int id)
     return RedirectToAction("Index");
 }
 ```
+
+# HAPPY CODING !!! :)
