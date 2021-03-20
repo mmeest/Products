@@ -16,9 +16,13 @@
 - [CRUD Update](#crud-update)
 - [CRUD Delete](#crud-delete)
 
+<hr>
+
 ## Tools needed
 * Visual Studio           - https://visualstudio.microsoft.com/
 * Microsoft SQL Server    - https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+
+<hr>
 
 ## Database
 On Microsoft SQL Server Management Studio create new database\
@@ -40,6 +44,8 @@ Set 'ProductID' as Primary Key and on Column Properties 'Identity Specification 
 ```
 defaults: new { controller = "Product", action = "Index", id = UrlParameter.Optional }
 ```
+
+<hr>
 
 ## CRUD Read
 On 'ProductsController' we will display products in our database.\
@@ -97,6 +103,8 @@ This will create 'index.cshtml' in our 'Product' folder where we write our main 
 </table>
 ```
 
+<hr>
+
 ## CRUD Create
 In 'Models' folder we will add 'ProductModel.cs' class
 ```
@@ -147,6 +155,8 @@ public ActionResult Create(ProductModel productModel)
     return RedirectToAction("Index");
 }
 ```
+
+<hr>
 
 ## CRUD Update
 We'll create edit method on 'ProductsController.cs'
@@ -204,6 +214,8 @@ public ActionResult Edit(ProductModel productModel)
     return RedirectToAction("Index");
 }
 ```
+
+<hr>
 
 ## CRUD Delete
 For delete operation we use Delete GET mehtod in 'ProductController.cs'
